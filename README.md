@@ -2,7 +2,7 @@
 # A Dynamic Kernel Prior Model for Unsupervised Blind Image Super-Resolution (DKP), CVPR2024
 
 This repository is the official PyTorch implementation of DKP to Blind Super-Resolution 
-([supp](https://github.com/XYLGroup/DKP)).
+([arXiv](https://arxiv.org/abs/2404.15620)[supp](https://github.com/XYLGroup/DKP)).
 
  ---
 
