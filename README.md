@@ -23,13 +23,9 @@ Extensive simulations on Gaussian and motion kernel scenarios demonstrate that t
 - pip install numpy torch blobfile tqdm pyYaml pillow    # e.g. torch 1.7.1+cu110.
 
 ### Pre-Trained Models for DiffDDKP
-To restore human face images, download this [model](https://drive.google.com/file/d/1wSoA5fm_d6JBZk4RZ1SzWLMgev4WqH21/view?usp=share_link)(from [SDEdit](https://github.com/ermongroup/SDEdit)) and put it into `DiffDKP/data/pretrained/`. 
+To restore general images, download this [model](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion.pt)(from [guided-diffusion](https://github.com/openai/guided-diffusion)) and put it into `DiffDKP/data/pretrained/`.
 ```
-https://drive.google.com/file/d/1wSoA5fm_d6JBZk4RZ1SzWLMgev4WqH21/view?usp=share_link
-```
-To restore general images, download this [model](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion_uncond.pt)(from [guided-diffusion](https://github.com/openai/guided-diffusion)) and put it into `DiffDKP/data/pretrained/`.
-```
-wget https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion_uncond.pt
+wget https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion.pt
 ```
 Note that the pre-trained models are only used for DiffDKP, DIPDKP is processed without pre-trained models.
 
